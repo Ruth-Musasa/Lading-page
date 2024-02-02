@@ -1,0 +1,356 @@
+body {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-family: 'Fraunces', serif;
+    color: #18212E;
+    width: 100%;
+}
+
+h5 {
+    font-family: 'Barlow', sans-serif;
+    color: #BFBEBC;
+}
+
+p {
+    line-height: 2;
+    font-family: 'Barlow', sans-serif;
+    color: #98969E;
+    font-weight: 500;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-top: 9%;
+    letter-spacing: 1rem;
+}
+
+/* Entete et Navigation */
+
+section.img-index {
+    background: url(img/index.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    color: white;
+    height: 40em;
+    padding-top: 60px;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#bouton a {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 10px;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+    font-size: 19px;
+}
+
+.entete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fleche {
+    margin-left: 49%;
+    height: 18%;
+    margin-top: 4%;
+}
+
+nav.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 32%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8em;
+    box-sizing: border-box;
+}
+
+nav.navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+/* section principale */
+
+.cont {
+    background: #FFFBF8;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cont p {
+    font-weight: 600;
+}
+
+#Transforme {
+    background-color: #FFFBF8;
+    grid-area: 1 / 1/ 2 / 2;
+    height: 800px;
+
+}
+
+#img-trans {
+    background: url(img/image-transform.jpg);
+    grid-area: 1 / 2/ 2 / 3;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-stand {
+    background: url(img/image-stand-out.jpg);
+    grid-area: 3/ 1/ 3/ 2;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Stand {
+    background-color: #FFFBF8;
+    grid-area: 3/ 2 / 3/ 3;
+    height: 800px;
+}
+
+#Graphique {
+    background: url(img/image-graphic-design.jpg);
+    grid-area: 4 / 1/ 4/ 2;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Photography {
+    background: url(img/image-photography.jpg);
+    grid-area: 4 / 2/ 4/ 3;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Photography div {
+    text-align: center;
+    padding-top: 55%;
+    padding-left: 23%;
+    padding-right: 23%;
+    color: #105070;
+}
+
+#Graphique div {
+    text-align: center;
+    padding-top: 55%;
+    padding-left: 23%;
+    padding-right: 23%;
+    color: #235C50;
+}
+
+.souligne {
+    text-align: center;
+    width: 180px;
+    border-radius: 10px;
+    height: 10px;
+    background-position: bottom;
+    margin-top: -40px;
+    background-color: #FBD9D2;
+
+}
+
+/* section secondaire  */
+
+.cont2 {
+    background-color: #FFFBF8;
+    display: flex;
+    padding-bottom: 10%;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+.alignement {
+    background-color: #FFFBF8;
+    display: flex;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}
+
+.cont2 p {
+    color: #6C6D71;
+    font-weight: 700;
+}
+
+.cont2 h6 {
+    background-color: #FFFBF8;
+    text-align: center;
+    color: #B6B6B7;
+    font-size: 27px;
+    letter-spacing: 0.5rem;
+}
+
+.cont2 img {
+    width: 100px;
+}
+
+.info-perso {
+    margin-top: 20%;
+}
+
+#image-emily img {
+    background-color: #FFFBF8;
+    border-radius: 100%
+}
+
+#image-emily p {
+    width: 500px;
+}
+
+#image-thomas img {
+    background-color: #FFFBF8;
+    border-radius: 100%
+}
+
+#image-thomas p {
+    width: 500px;
+}
+
+#image-jennie img {
+    background-color: #FFFBF8;
+    border-radius: 100%
+}
+
+#image-jennie p {
+    width: 500px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+/* section image  */
+
+.cont3 {
+    background: #FFFBF8;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    flex-direction: row;
+}
+
+#img-conne {
+    background: url(img/image-gallery-cone.jpg);
+    height: 600px;
+    grid-area: 1 / 3/ 2/ 4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-milk {
+    background: url(img/image-gallery-milkbottles.jpg);
+    height: 600px;
+    background-size: cover;
+    grid-area: 1 / 1/ 2/ 2;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-orang {
+    background: url(img/image-gallery-orange.jpg);
+    height: 600px;
+    background-size: cover;
+    grid-area: 1 / 2/ 2 / 3;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-sugar {
+    background: url(img/image-gallery-sugarcubes.jpg);
+    height: 600px;
+    grid-area: 1 / 4/ 2/ 5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* pied de page  */
+
+footer {
+    background-color: #90D4C5;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 37%;
+    padding-right: 37%;
+    line-height: 2;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    color: #297163;
+    font-family: 'Barlow', sans-serif;
+    object-position: center;
+    cursor: pointer;
+}
+
+#nav li:hover {
+    color: white;
+}
+
+#logo {
+    height: 40px;
+    object-position: center;
+}
+
+#icon a:hover {
+    color: white;
+}
+
+#icon {
+    display: flex;
+    justify-content: space-evenly;
+    object-position: center;
+    width: 50%;
+    padding-top: 90px;
+    padding-left: 130px;
+    cursor: pointer;
+}
